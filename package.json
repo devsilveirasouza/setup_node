@@ -1,0 +1,20 @@
+{
+  "name": "node_setup",
+  "version": "1.0.0",
+  "description": "node_setup",
+  "main": "index.js",
+  "author": "devsilveirasouza <dev.silveirasouza@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
